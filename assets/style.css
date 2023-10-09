@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header{
+    background-color: rgb(11, 79, 108);
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header h1{
+    font: 60px;
+    background-color: rgb(110, 125, 171);
+    width: 30%;
+    height: 80%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    position: relative;
+}
+
+.header nav{
+    /*background-color: orange;*/
+    width: 50%;
+    margin-top: 15px;
+}
+
+.header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: rgb(110, 125, 171);
+    font: 50px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(110, 125, 171);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#heroGrid{
+    background-image: url(../assets/images/panel.jpg);
+    height: 70vh;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Headline{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom:5px solid rgb(110, 125, 171);
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+#AboutMe{
+    display: grid;
+    grid-template-columns: 300px 900px;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "AboutMeTitle AboutMeText"
+    ;
+    margin: 10px 10px; 
+}
+
+#AboutMeTitle{
+    grid-area: AboutMeTitle;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    border-right: 5px solid  rgb(110, 125, 171);
+    padding: 25px;
+}
+
+#AboutMeText{
+    grid-area: AboutMeText;
+    padding: 5%;
+}
+
+#Work{
+    display: grid;
+    grid-template-columns: 300px 450px 450px;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas:
+    "WorkTitle Project1 Project1"
+    "WorkTitle Project2 Project3"
+    "WorkTitle Project4 Project5"
+    ;
+}
+
+#WorkTitle{
+    grid-area: WorkTitle;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    border-right: 5px solid  rgb(110, 125, 171);
+    padding: 25px;
+}
+
+/*.heading{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color:#fefae0(0.7) ;
+    height: 25px;
+    padding: 15px;
+    border-bottom: 3px solid ;
+
+} */
+
+#Project1{
+    grid-area: Project1;
+    background-image: url(../assets/images/panel.jpg);
+}
+
+#Project2{
+    grid-area: Project2;
+    background-image: url(../assets/images/panel.jpg);
+}
+
+#Project3{
+    grid-area: Project3;
+    background-image: url(../assets/images/panel.jpg);
+}
+
+#Project4{
+    grid-area: Project4;
+    background-image: url(../assets/images/panel.jpg);
+}
+
+#Project5{
+    grid-area: Project5;
+    background-image: url(../assets/images/panel.jpg);
+}
