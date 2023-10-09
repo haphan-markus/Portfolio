@@ -83,7 +83,7 @@ body{
 #AboutMeTitle{
     grid-area: AboutMeTitle;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: flex-end;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
@@ -105,6 +105,7 @@ body{
     "WorkTitle Project2 Project3"
     "WorkTitle Project4 Project5"
     ;
+    margin: 20px 10px;
 }
 
 #WorkTitle{
@@ -132,26 +133,31 @@ body{
 #Project1{
     grid-area: Project1;
     background-image: url(../assets/images/panel.jpg);
+    margin-bottom: 10px;
 }
 
 #Project2{
     grid-area: Project2;
     background-image: url(../assets/images/panel.jpg);
+    margin: 10px 0px;
 }
 
 #Project3{
     grid-area: Project3;
     background-image: url(../assets/images/panel.jpg);
+    margin: 10px 0px;
 }
 
 #Project4{
     grid-area: Project4;
     background-image: url(../assets/images/panel.jpg);
+    margin-top: 10px;
 }
 
 #Project5{
     grid-area: Project5;
     background-image: url(../assets/images/panel.jpg);
+    margin-top: 10px;
 }
 
 #Project1,
@@ -162,9 +168,44 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: grid;
     align-content: end;
     cursor: pointer;
     border: 3px solid rgb(221, 161, 94);
+}
+
+#Contact{
+    display: grid;
+    grid-template-columns: 300px 900px;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "ContactTitle ContactDetails";
+    margin: 20px 10px;
+}
+
+#ContactTitle{
+    grid-area: ContactTitle;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    border-right: 5px solid  rgb(110, 125, 171);
+    padding: 25px;
+}
+
+#ContactDetails{
+    grid-area: ContactDetails;
+}
+
+#Phone,
+#Email, 
+#GitHub{
+    display: inline-block;
+    
+    align-items: center;
+    justify-content: space-around;
 }
