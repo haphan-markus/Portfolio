@@ -203,9 +203,9 @@ body{
 
 #Phone,
 #Email, 
-#GitHub{
+#GitHub,
+#LinkedIn{
     display: inline-block;
-    
-    align-items: center;
-    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
 }
