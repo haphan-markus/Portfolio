@@ -159,6 +159,10 @@ body{
     padding: 3% 0 0 0;
 }
 
+.devProject h3 {
+    text-align: center;
+}
+
 .devProject .row {
     display: flex;
     justify-content: space-evenly;
@@ -166,11 +170,20 @@ body{
 }
 
 .devProject .card {
-    width: 25%;
+    width: 25% !important;
     margin: 2%;
     border-radius: 0;
     border-color: #E3C75F;
     background-color:#E3C75F;
+}
+
+.devProject a {
+    object-fit: contain;
+}
+.devProject img {
+    object-fit: cover;
+    height: 25vh;
+    width: 100%;
 }
 /* #AboutMe{
     display: grid;
