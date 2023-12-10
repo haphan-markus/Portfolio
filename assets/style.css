@@ -173,26 +173,29 @@ body{
 
 .devProject h3 {
     text-align: center;
+    font-family: "Oswald", sans-serif;
 }
 
 .devProject .row {
     display: flex;
     justify-content: center;
+    justify-items: center;
     margin: 2% 2%;
 }
 
 .devProject .row .col-lg-4 {
-    align-items: center;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
     padding: 0;
 }
-.devProject .row .col-md-6 {
+/* .devProject .row .col-md-6 {
     align-items: center;
 }
 .devProject .row .col-sm-12 {
     align-items: center;
     margin: 2% 0;
-}
+} */
 
 .devProject .card {
     width: 80%;
@@ -211,6 +214,7 @@ body{
     object-fit: cover;
     height: 25vh;
     width: 100%;
+    padding: 4% 3%;
 }
 /* #AboutMe{
     display: grid;
