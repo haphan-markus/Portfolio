@@ -1,20 +1,34 @@
+.header {
+    background-color: #8FC1B5;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #8FC1B5;
+}
+
 .nav-icons {
     display: flex;
-    /* justify-content: space-between; */
     margin-top: 30px;
-  }
-  .nav-icons li {
+}
+
+.nav-icons li {
     margin-right: 10px;
     list-style-type: none;
-  }
+}
   
-  .nav-icons li i {
+.nav-icons li i {
     font-size: 24px;
-  }
+}
   
-  .nav-icons li {
+.nav-icons li {
     padding: 10px 15px;
-  }
+}
+
+.title-header {
+    align-items: center;
+    margin-top: 30px;
+}
 
 * {
     box-sizing: border-box;
@@ -24,49 +38,6 @@
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.header{
-    background-color: rgb(40, 54, 24);
-    color: rgb(254,250,224);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.header h1{
-    font: 60px;
-    background-color: rgb(96, 108, 56);
-    width: 30%;
-    height: 80%;
-    padding: 5px;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 15px;
-    position: relative;
-}
-
-.header nav{
-    width: 50%;
-    margin-top: 15px;
-}
-
-.header nav ul {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    color: rgb(254,250,224);
-    font: 50px;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: rgb(254,250,224);
-    font-size: 20px;
-    margin-top: 20px;
 }
 
 #heroGrid{
