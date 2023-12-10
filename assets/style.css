@@ -135,37 +135,41 @@ body{
 }
 
 .interestingFacts .row {
-    height: 60%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    justify-items: center;
+    margin: 3% 0;
+    /* margin-bottom: 3%; */
 }
 .interestingFacts h2 {
     text-align: center;
     color: #0B2B40;
-    padding: 2% 0%;
+    padding: 2% 0% 0% 0%;
     margin: auto 0px;
     font-size: 45px;
 }
 
-.interestingFacts .col-3 {
+.interestingFacts .col-md-6 {
     margin: 0px 0px 3% 0px;
     text-align: center;
-    width: 17.5%;
+    width: 100%;
     min-height: 45%;
 }
 
-.interestingFacts .col-3 h4 {
+.interestingFacts .col-md-6 h4 {
     font-size: 35px;
 }
 
-.interestingFacts .col-3 p {
+.interestingFacts .col-md-6 p {
     font-size: 25px;
     font-family: "Pacifico",sans-serif;
-    height: 100%;
+    /* height: 100%; */
 }
 
+.devProject {
+    padding: 0 10%;
+}
 .devProject h2 {
     text-align: center;
     padding: 3% 0 0 0;
@@ -215,6 +219,10 @@ body{
     height: 25vh;
     width: 100%;
     padding: 4% 3%;
+}
+
+.devProject p {
+    margin: 0% 3%;
 }
 /* #AboutMe{
     display: grid;
