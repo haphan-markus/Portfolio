@@ -121,7 +121,7 @@ body{
 
 .interestingFacts {
     background-color: #5FCDD9;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
 }
 
@@ -133,8 +133,8 @@ body{
 }
 .interestingFacts h2 {
     text-align: center;
-    font-color: #0B2B40;
-    padding: 3% 0%;
+    color: #0B2B40;
+    padding: 2% 0%;
     margin: auto 0px;
     font-size: 45px;
 }
@@ -143,6 +143,15 @@ body{
     margin: 0px 0px;
     text-align: center;
     width: 17.5%;
+}
+
+.interestingFacts .col-3 h4 {
+    font-size: 35px;
+}
+
+.interestingFacts .col-3 p {
+    font-size: 25px;
+    font-family: "Pacifico",sans-serif;
 }
 /* #AboutMe{
     display: grid;
