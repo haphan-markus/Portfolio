@@ -67,7 +67,6 @@ body{
     top: 40%;
     left: 50%;
     padding: 15px;
-    
 }
 
 .heroGrid h3 {
@@ -86,7 +85,7 @@ body{
 
 .AboutMe {
     background-color: #0B2B40;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -106,12 +105,46 @@ body{
     padding-bottom: 0;
 }
 
+.AboutMe .row .col-8 {
+    padding: 0px 20px;
+}
+
 .AboutMe p {
-    margin-bottom: 0;
-    padding-bottom: 0;
+    /* margin: 0px 20px; */
+    padding: 0 5%;
     position: relative;
 }
-#AboutMe{
+
+.AboutMe ul {
+    padding: 0 10%;
+}
+
+.interestingFacts {
+    background-color: #5FCDD9;
+    height: 50vh;
+    width: 100%;
+}
+
+.interestingFacts .row {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.interestingFacts h2 {
+    text-align: center;
+    font-color: #0B2B40;
+    padding: 3% 0%;
+    margin: auto 0px;
+    font-size: 45px;
+}
+
+.interestingFacts .col-3 {
+    margin: 0px 0px;
+    text-align: center;
+    width: 17.5%;
+}
+/* #AboutMe{
     display: grid;
     grid-template-columns: 300px 900px;
     grid-template-rows: 1fr;
@@ -135,7 +168,7 @@ body{
 #AboutMeText{
     grid-area: AboutMeText;
     padding: 5%;
-}
+} */
 
 #Work{
     display: grid;
