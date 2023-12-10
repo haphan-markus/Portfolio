@@ -153,6 +153,25 @@ body{
     font-size: 25px;
     font-family: "Pacifico",sans-serif;
 }
+
+.devProject h2 {
+    text-align: center;
+    padding: 3% 0 0 0;
+}
+
+.devProject .row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 2%;
+}
+
+.devProject .card {
+    width: 25%;
+    margin: 2%;
+    border-radius: 0;
+    border-color: #E3C75F;
+    background-color:#E3C75F;
+}
 /* #AboutMe{
     display: grid;
     grid-template-columns: 300px 900px;
@@ -179,7 +198,7 @@ body{
     padding: 5%;
 } */
 
-#Work{
+/* #Work{
     display: grid;
     grid-template-columns: 300px 450px 450px;
     grid-template-rows: 300px 300px 300px;
@@ -189,9 +208,9 @@ body{
     "WorkTitle Project4 Project5"
     ;
     margin: 20px 10px;
-}
+} */
 
-#WorkTitle{
+/* #WorkTitle{
     grid-area: WorkTitle;
     display: flex;
     align-items: center;
@@ -211,9 +230,9 @@ body{
     padding: 5px 5px;
     font-size: 20px;
     color: rgba(188, 108, 37, 1);
-}
+} */
 
-#Project1{
+/* #Project1{
     grid-area: Project1;
     background-image: url(../assets/images/panel.jpg);
     margin-bottom: 10px;
@@ -241,8 +260,8 @@ body{
     grid-area: Project5;
     background-image: url(../assets/images/panel.jpg);
     margin-top: 10px;
-}
-
+} */
+/* 
 #Project1,
 #Project2,
 #Project3,
@@ -258,7 +277,7 @@ body{
     align-content: end;
     cursor: pointer;
     border: 3px solid rgb(221, 161, 94);
-}
+} */
 
 #Contact{
     display: grid;
