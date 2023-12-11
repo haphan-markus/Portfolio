@@ -224,6 +224,24 @@ body{
 .devProject p {
     margin: 0% 3%;
 }
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact div {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0px;
+    
+}
+
+.contact p {
+    font-size: 25px;
+    border-color: #253659;
+    border: 2%;
+}
+
 /* #AboutMe{
     display: grid;
     grid-template-columns: 300px 900px;
