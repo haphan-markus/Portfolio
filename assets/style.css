@@ -136,9 +136,9 @@ body{
 
 .interestingFacts .row {
     height: 100%;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+    /* display: flex; */
+    /* justify-content: center;
+    justify-items: center; */
     margin: 3% 0;
     /* margin-bottom: 3%; */
 }
@@ -231,16 +231,34 @@ body{
 
 .contact div {
     display: flex;
-    justify-content: space-around;
-    margin: 5% 0px;
-    
+    justify-content: center;
+    margin: 3% 0px;
+    padding: 1% 1%;
 }
 
 .contact p {
     font-size: 25px;
     border-color: #253659;
     border: 2%;
+    width: 20%;
+    text-align: center;
 }
+
+.contact a {
+    text-decoration: none;
+    padding: 3%;
+    border-radius: 8px;
+}
+
+.contact p :hover {
+    background-color: #253659;
+    color:rgba(255, 255, 255, 1);
+    /* padding: 2%; */
+}
+
+/* .contact a :hover {
+    padding: 2%;
+} */
 
 /* #AboutMe{
     display: grid;
