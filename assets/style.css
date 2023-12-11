@@ -128,6 +128,11 @@ body{
     margin: 0 0 2% 0;
 }
 
+.AboutMe img {
+    object-fit: cover;
+    width: 100%;
+}
+
 .interestingFacts {
     background-color: #5FCDD9;
     min-height: 40vh;
@@ -209,6 +214,10 @@ body{
     border-radius: 0;
     border-color: #E3C75F;
     background-color:#E3C75F;
+}
+
+.devProject .col-lg-4 :hover{
+    background-color:azure;
 }
 
 .devProject a {
