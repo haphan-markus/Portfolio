@@ -52,7 +52,7 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover; /* define how the picture fits into the parent box */
-    /* object-position: 50% 100%; */
+    object-position: 50% 100%;
 }
 
 /* .heroGrid .row {
@@ -274,8 +274,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
+.contact .email p {
+    width: 100%;
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
     .contactInfo{
         display: flex;
@@ -283,6 +288,12 @@ body{
         align-items: center;
     }
 }
+
+/* @media only screen and (max-width: 450px) {
+    #email {
+        width: 100%;
+    }
+} */
 
 /* * {box-sizing:border-box} */
 
