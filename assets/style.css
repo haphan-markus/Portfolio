@@ -138,44 +138,7 @@ body{
     height: 100%;
 }
 
-.interestingFacts {
-    background-color: #5FCDD9;
-    min-height: 40vh;
-    width: 100%;
-}
-
-.interestingFacts .row {
-    height: 100%;
-    /* display: flex; */
-    /* justify-content: center;
-    justify-items: center; */
-    margin: 3% 0;
-    /* margin-bottom: 3%; */
-}
-.interestingFacts h2 {
-    text-align: center;
-    color: #0B2B40;
-    padding: 2% 0% 0% 0%;
-    margin: auto 0px;
-    font-size: 40px;
-}
-
-.interestingFacts .col-md-6 {
-    margin: 0px 0px 3% 0px;
-    text-align: center;
-    width: 100%;
-    min-height: 45%;
-}
-
-.interestingFacts .col-md-6 h4 {
-    font-size: 30px;
-}
-
-.interestingFacts .col-md-6 p {
-    font-size: 25px;
-    font-family: "Pacifico",sans-serif;
-    /* height: 100%; */
-}
+/* Front-end projects  */
 
 .devProject {
     padding: 0 10%;
@@ -237,6 +200,55 @@ body{
     margin: 0% 3%;
 }
 
+/* Research projects  */
+.researchProjects .headTitle {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Oswald", "Anton", sans-serif;
+}
+
+/* Interesting facts  */
+
+.interestingFacts {
+    background-color: #5FCDD9;
+    min-height: 40vh;
+    width: 100%;
+}
+
+.interestingFacts .row {
+    height: 100%;
+    /* display: flex; */
+    /* justify-content: center;
+    justify-items: center; */
+    margin: 3% 0;
+    /* margin-bottom: 3%; */
+}
+.interestingFacts h2 {
+    text-align: center;
+    color: #0B2B40;
+    padding: 2% 0% 0% 0%;
+    margin: auto 0px;
+    font-size: 40px;
+}
+
+.interestingFacts .col-md-6 {
+    margin: 0px 0px 3% 0px;
+    text-align: center;
+    width: 100%;
+    min-height: 45%;
+}
+
+.interestingFacts .col-md-6 h4 {
+    font-size: 30px;
+}
+
+.interestingFacts .col-md-6 p {
+    font-size: 25px;
+    font-family: "Pacifico",sans-serif;
+    /* height: 100%; */
+}
+
+/* Personal contacts  */
 .contact h2 {
     text-align: center;
     margin-bottom: 4%;
@@ -249,11 +261,18 @@ body{
     padding: 1% 1%;
 }
 
-.contact p {
+.contact .contactInfo p {
     font-size: 25px;
     border-color: #253659;
     border: 2%;
     width: 20%;
+    text-align: center;
+}
+
+.contact .email p{
+    font-size: 25px;
+    border-color: #253659;
+    border: 2%;
     text-align: center;
 }
 
