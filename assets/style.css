@@ -41,7 +41,7 @@ body{
 }
 
 .heroGrid {
-    min-height: 60vh;
+    height: 60vh;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -52,7 +52,7 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover; /* define how the picture fits into the parent box */
-    object-position: 50% 100%;
+    /* object-position: 50% 100%; */
 }
 
 /* .heroGrid .row {
@@ -209,6 +209,81 @@ body{
     margin: 5% 0 2% 0;
 }
 
+.devProject .card {
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 2% 0;
+    border-radius: 0;
+    border-color: #E3C75F;
+    background-color:#E3C75F;
+}
+
+.devProject .col-lg-4 :hover{
+    background-color:azure;
+}
+
+.devProject a {
+    object-fit: contain;
+}
+.devProject img {
+    object-fit: cover;
+    height: 25vh;
+    width: 100%;
+    padding: 4% 3%;
+}
+
+.devProject p {
+    margin: 0% 3%;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.contact div {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0px;
+    padding: 1% 1%;
+}
+
+.contact p {
+    font-size: 25px;
+    border-color: #253659;
+    border: 2%;
+    width: 20%;
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    text-align: center;
+    padding: 3%;
+    border-radius: 8px;
+}
+
+.contact p :hover {
+    background-color: #253659;
+    color:rgba(255, 255, 255, 1);
+    /* padding: 2%; */
+}
+
+.contact .email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .contactInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* * {box-sizing:border-box} */
 
 /* Slideshow container */
@@ -296,68 +371,6 @@ body{
   from {opacity: .4}
   to {opacity: 1}
 } */
-
-.devProject .card {
-    width: 80%;
-    height: 100%;
-    margin: 0;
-    padding: 0 0 2% 0;
-    border-radius: 0;
-    border-color: #E3C75F;
-    background-color:#E3C75F;
-}
-
-.devProject .col-lg-4 :hover{
-    background-color:azure;
-}
-
-.devProject a {
-    object-fit: contain;
-}
-.devProject img {
-    object-fit: cover;
-    height: 25vh;
-    width: 100%;
-    padding: 4% 3%;
-}
-
-.devProject p {
-    margin: 0% 3%;
-}
-
-.contact h2 {
-    text-align: center;
-    margin-bottom: 4%;
-}
-
-.contact div {
-    display: flex;
-    justify-content: center;
-    margin: 1% 0px;
-    padding: 1% 1%;
-}
-
-.contact p {
-    font-size: 25px;
-    border-color: #253659;
-    border: 2%;
-    width: 20%;
-    text-align: center;
-}
-
-.contact a {
-    text-decoration: none;
-    text-align: center;
-    padding: 3%;
-    border-radius: 8px;
-}
-
-.contact p :hover {
-    background-color: #253659;
-    color:rgba(255, 255, 255, 1);
-    /* padding: 2%; */
-}
-
 /* .contact a :hover {
     padding: 2%;
 } */
