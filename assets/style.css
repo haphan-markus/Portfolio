@@ -201,12 +201,30 @@ body{
 }
 
 /* Research projects  */
+.researchProjects {
+    text-decoration: none;
+}
+
 .researchProjects .headTitle {
     text-align: center;
     font-size: 25px;
     font-family: "Oswald", "Anton", sans-serif;
+    margin: 0 0 2% 0;
 }
 
+.researchProjects .title {
+    font-family: "Oswald", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.researchProjects .projectCO2 img {
+    width: 80%;
+}
+
+.researchProjects .projectCO2 .col-lg-5 {
+    text-align: center;
+    margin: 0 0 0 5%;
+}
 /* Interesting facts  */
 
 .interestingFacts {
