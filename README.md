@@ -18,19 +18,25 @@ The links to GitHub repositories and research works are embedded in section "Fro
 
 ## Visual
 
-Spanner section
+``Spanner section
+``
+
 ![Alt text](./assets/images/screenshots/image1.png)
 
-Introduction
+``Introduction``
+
 ![Alt text](./assets/images/screenshots/image2.png)
 
-Front-end projects
+``Front-end projects``
+
 ![Alt text](./assets/images/screenshots/image3.png)
 
-Research projects
+``Research projects``
+
 ![Alt text](./assets/images/screenshots/image4.png)
 
-Contact
+``Contact``
+
 ![Alt text](./assets/images/screenshots/image5.png)
 
 ## Licence
