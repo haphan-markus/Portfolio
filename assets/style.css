@@ -150,6 +150,7 @@ body{
 
 .devProject h3 {
     text-align: center;
+    padding-top: 2%;
     font-family: "Oswald", sans-serif;
 }
 
@@ -165,6 +166,10 @@ body{
     justify-content: center;
     margin: 2% 0;
     padding: 0;
+}
+
+.devProject .card {
+    box-shadow: 20px 20px 40px #888888;
 }
 
 .researchProjects h2 {
